@@ -71,3 +71,5 @@ def analyze_book_with_bedrock(extracted_text, fileKey):
             "ending_summary": "N/A",
             "book_overview": "N/A"
         }
+
+    return book_analysis_data
